@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742E42AE1A856993005C12FA /* CharacterCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E42AD1A856993005C12FA /* CharacterCreationViewController.swift */; };
+		745504751A87399900A7244B /* BeliefSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745504741A87399900A7244B /* BeliefSlider.swift */; };
 		74F61C871A8321A000443606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F61C861A8321A000443606 /* AppDelegate.swift */; };
 		74F61C891A8321A000443606 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74F61C881A8321A000443606 /* GameScene.sks */; };
 		74F61C8B1A8321A000443606 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F61C8A1A8321A000443606 /* GameScene.swift */; };
@@ -15,7 +17,6 @@
 		74F61C921A8321A000443606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F61C911A8321A000443606 /* Images.xcassets */; };
 		74F61C951A8321A000443606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F61C931A8321A000443606 /* LaunchScreen.xib */; };
 		74F61CA11A8321A000443606 /* electionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F61CA01A8321A000443606 /* electionTests.swift */; };
-		74F61CAE1A83246C00443606 /* CharacterCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F61CAD1A83246C00443606 /* CharacterCreationViewController.swift */; };
 		74F61CB01A832AA100443606 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F61CAF1A832AA100443606 /* Person.swift */; };
 		74F61CB21A832BA700443606 /* Politician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F61CB11A832BA700443606 /* Politician.swift */; };
 		74F61CB41A8330AC00443606 /* Office.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F61CB31A8330AC00443606 /* Office.swift */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742E42AD1A856993005C12FA /* CharacterCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCreationViewController.swift; sourceTree = "<group>"; };
+		745504741A87399900A7244B /* BeliefSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeliefSlider.swift; sourceTree = "<group>"; };
 		74F61C811A8321A000443606 /* election.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = election.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F61C851A8321A000443606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F61C861A8321A000443606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +48,6 @@
 		74F61C9A1A8321A000443606 /* electionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = electionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F61C9F1A8321A000443606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F61CA01A8321A000443606 /* electionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electionTests.swift; sourceTree = "<group>"; };
-		74F61CAD1A83246C00443606 /* CharacterCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCreationViewController.swift; sourceTree = "<group>"; };
 		74F61CAF1A832AA100443606 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		74F61CB11A832BA700443606 /* Politician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Politician.swift; sourceTree = "<group>"; };
 		74F61CB31A8330AC00443606 /* Office.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Office.swift; sourceTree = "<group>"; };
@@ -135,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				74F61C8C1A8321A000443606 /* GameViewController.swift */,
-				74F61CAD1A83246C00443606 /* CharacterCreationViewController.swift */,
+				742E42AD1A856993005C12FA /* CharacterCreationViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 		74F61CAC1A83231700443606 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				745504741A87399900A7244B /* BeliefSlider.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -268,12 +271,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				74F61CB01A832AA100443606 /* Person.swift in Sources */,
+				742E42AE1A856993005C12FA /* CharacterCreationViewController.swift in Sources */,
 				74F61CB41A8330AC00443606 /* Office.swift in Sources */,
 				74F61C8B1A8321A000443606 /* GameScene.swift in Sources */,
-				74F61CAE1A83246C00443606 /* CharacterCreationViewController.swift in Sources */,
 				74F61C8D1A8321A000443606 /* GameViewController.swift in Sources */,
 				74F61C871A8321A000443606 /* AppDelegate.swift in Sources */,
 				74F61CB21A832BA700443606 /* Politician.swift in Sources */,
+				745504751A87399900A7244B /* BeliefSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +471,7 @@
 				74F61CA61A8321A000443606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74F61CA71A8321A000443606 /* Build configuration list for PBXNativeTarget "electionTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				74F61CA91A8321A000443606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
